@@ -1,9 +1,8 @@
 import React from 'react';
-// import './App.css';
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <a className="navbar-brand" href="...">Danielle Kuhn</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +15,7 @@ const Navbar = () => {
                 <a className="nav-link" href="...">About Me</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="...">Skills</a>
+                <a className="nav-link" href="...">My Projects</a>
                 </li>
                 <li className="nav-item">
                 <a className="nav-link" href="...">Experience</a>

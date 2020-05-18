@@ -1,15 +1,9 @@
 import React from 'react';
-// import './App.css';
 
 const ImageBar = () => {
     return (
         <div>
-            <div id="carouselExampleCaptions" class="carousel slide carouselImg" data-ride="carousel">
-                <ol className="carousel-indicators">
-                    <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                </ol> 
+            <div id="carouselExampleCaptions" className="carousel slide carouselImg" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="https://i.imgur.com/DRnDNsE.jpg" className="d-block w-100" alt="..."></img>
