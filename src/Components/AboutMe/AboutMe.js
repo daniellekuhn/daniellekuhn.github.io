@@ -6,7 +6,7 @@ const AboutMe = () => {
             <div className="container mt-3">
             <div className="row mt-3">
                 <div className="mt-4">
-                    <h3 style={{borderBottom: "2px solid #6666ff"}} href="/AboutMe">About Me</h3>
+                    <h3 style={{borderBottom: "2px solid #6666ff"}}>About Me</h3>
                 </div>
                 <div >
                     <p >My name is Danielle Kuhn and I am a front-end developer with full-stack experience. I entered the tech industry about five years ago when 

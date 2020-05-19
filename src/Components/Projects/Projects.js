@@ -1,13 +1,14 @@
 import React from 'react';
+import styles from './Projects.module.css'
 
-const Skills = () => {
+const Projects = () => {
     return (
             <div>
                 <div className="container mt-3">
                 <div className="row mt-3">
                     <div className="mt-4">
-                        <h3 style={{borderBottom: "2px solid #6666ff"}} href="/AboutMe">Software Projects</h3>
-                        <p>Check out some of my recent applications:</p>
+                        <h3>Software Projects</h3>
+                        <p className={styles['introSentence']}>Check out some of my recent applications:</p>
                     </div>
                     <div className="accordion w-100" id="accordionExample">
                         <div className="card">
@@ -22,15 +23,16 @@ const Skills = () => {
                             <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                             <div className="card-body">
                             {/* container */}
-                            <div class="container">
-                                    <div class="row">
-                                    <div class="col-7">
+                            <div className="container">
+                                    <div className="row">
+                                    <div className="col-7">
                                         <div style={{fontSize: 12}} className="mb-1"><b>Website Link: </b> <a href="https://hratx47-gigl.herokuapp.com">https://hratx47-gigl.herokuapp.com</a></div>
                                         <div style={{fontSize: 12}} className="mb-1"><b>Github Repo: </b> <a href="https://github.com/hratx47-gigl/Gigl-Website">https://github.com/hratx47-gigl/Gigl-Website</a></div>
                                         <div style={{fontSize: 12}} className="mb-1"><b>Overview: </b> Have an event coming up and need talent? Gigl is a platform that connects clients to local freelancers such as photographers, bartenders, artists, and entertainers. Our website allows clients to post upcoming gigs and select a performer that meets their needs. It also allows talented peformers to create a profile, view gigs in their area, and apply for them!</div>
                                         <div style={{fontSize: 12}} className="mb-2"><b>Tech Stack: </b> </div>
 
                                             <table className="border" style={{fontSize: 10, fontWeight: "bold"}}>
+                                            <tbody>
                                                 <tr>
                                                     <td  width="100" height="50" className="border" align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React" width="80px"/></td>
                                                     <td  width="100" height="50" className="border" align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node.js" title="Node.js" width="60px"/></td>
@@ -46,9 +48,10 @@ const Skills = () => {
                                                     <td  width="100" height="50" className="border" align="center"><img src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png" alt="Bootstrap" title="Bootstrap" width="60px"/></td>
                                                     <td  width="100" height="50" className="border" align="center"><img src="https://www.logolynx.com/images/logolynx/f4/f436442c17fa509c78e28aa28c76b923.png" alt="MongoDB" title="MongoDB" width="60px"/></td>
                                                 </tr>
+                                                </tbody>
                                             </table>
                                     </div>
-                                    <div class="col-5 pr-2">
+                                    <div className="col-5 pr-2">
                                         <img src="https://thumbs.gfycat.com/AmazingJovialAoudad-size_restricted.gif" height="350" alt="..."></img>&nbsp;&nbsp;
                                         <img src="https://thumbs.gfycat.com/MixedSeparateGraywolf-size_restricted.gif" height="350" alt="..."></img>
                                     </div>
@@ -93,6 +96,6 @@ const Skills = () => {
     )
 }
 
-export default Skills;
+export default Projects;
 
 
