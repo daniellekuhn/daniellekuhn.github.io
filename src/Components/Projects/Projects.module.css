@@ -1,3 +1,55 @@
-.introSentence {
-    color: pink;
+.background {
+    font-family: 'Ropa Sans', sans-serif;
+    background-color: #404040;
+    color: #E8E8E8;
+    margin-top: 300px;
+    margin-bottom: 50px;
 }
+
+.projectTitle {
+    color: #E8E8E8;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.headerTitle {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #404040;
+}
+
+.projectContainer {
+    text-align: center;
+    height: auto;
+    max-width: 300px;
+}
+
+.projectImg {
+    filter: grayscale(60%)
+}
+
+.projectImg:hover {
+    top: 10px;
+    filter: grayscale(0%)
+}
+
+.footer {
+    margin-bottom: 300px;
+    background-color: #404040;
+}
+
+.spaceImage{
+    opacity: .4;
+    width: 100%;
+    height: auto;
+}
+
+.clickFor {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
