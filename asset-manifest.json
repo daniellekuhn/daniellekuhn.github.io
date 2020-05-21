@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/daniellekuhn/static/css/main.8f5f44c2.chunk.css",
-    "main.js": "/daniellekuhn/static/js/main.72995ddc.chunk.js",
-    "main.js.map": "/daniellekuhn/static/js/main.72995ddc.chunk.js.map",
-    "runtime-main.js": "/daniellekuhn/static/js/runtime-main.a25f3206.js",
-    "runtime-main.js.map": "/daniellekuhn/static/js/runtime-main.a25f3206.js.map",
-    "static/js/2.2c0c554b.chunk.js": "/daniellekuhn/static/js/2.2c0c554b.chunk.js",
-    "static/js/2.2c0c554b.chunk.js.map": "/daniellekuhn/static/js/2.2c0c554b.chunk.js.map",
-    "index.html": "/daniellekuhn/index.html",
-    "precache-manifest.382ceadce7fd6411034f818465c82c8d.js": "/daniellekuhn/precache-manifest.382ceadce7fd6411034f818465c82c8d.js",
-    "service-worker.js": "/daniellekuhn/service-worker.js",
-    "static/css/main.8f5f44c2.chunk.css.map": "/daniellekuhn/static/css/main.8f5f44c2.chunk.css.map",
-    "static/js/2.2c0c554b.chunk.js.LICENSE.txt": "/daniellekuhn/static/js/2.2c0c554b.chunk.js.LICENSE.txt"
+    "main.css": "/daniellekuhn.github.io/static/css/main.8f5f44c2.chunk.css",
+    "main.js": "/daniellekuhn.github.io/static/js/main.81f00b8f.chunk.js",
+    "main.js.map": "/daniellekuhn.github.io/static/js/main.81f00b8f.chunk.js.map",
+    "runtime-main.js": "/daniellekuhn.github.io/static/js/runtime-main.1bc229b5.js",
+    "runtime-main.js.map": "/daniellekuhn.github.io/static/js/runtime-main.1bc229b5.js.map",
+    "static/js/2.2c0c554b.chunk.js": "/daniellekuhn.github.io/static/js/2.2c0c554b.chunk.js",
+    "static/js/2.2c0c554b.chunk.js.map": "/daniellekuhn.github.io/static/js/2.2c0c554b.chunk.js.map",
+    "index.html": "/daniellekuhn.github.io/index.html",
+    "precache-manifest.772a1fe2239c634ae6e77649254b5e56.js": "/daniellekuhn.github.io/precache-manifest.772a1fe2239c634ae6e77649254b5e56.js",
+    "service-worker.js": "/daniellekuhn.github.io/service-worker.js",
+    "static/css/main.8f5f44c2.chunk.css.map": "/daniellekuhn.github.io/static/css/main.8f5f44c2.chunk.css.map",
+    "static/js/2.2c0c554b.chunk.js.LICENSE.txt": "/daniellekuhn.github.io/static/js/2.2c0c554b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a25f3206.js",
+    "static/js/runtime-main.1bc229b5.js",
     "static/js/2.2c0c554b.chunk.js",
     "static/css/main.8f5f44c2.chunk.css",
-    "static/js/main.72995ddc.chunk.js"
+    "static/js/main.81f00b8f.chunk.js"
   ]
 }
