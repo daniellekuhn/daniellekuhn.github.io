@@ -1,0 +1,41 @@
+.descriptionTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.websiteLink {
+    color: #E8E8E8;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.table {
+    font-size: 10px;
+    margin-bottom: 5px;
+    background-color: #E8E8E8;
+}
+
+.rows {
+    width: 100px;
+    height: 50px;
+    border: .5px solid #404040;
+    text-align: center;
+}
+
+.underline {
+    border: 1px solid #E8E8E8;
+    margin-top: 150px;
+    filter: grayscale(60%)
+}
+
+.underline2 {
+    border: 1px solid #E8E8E8;
+    margin-top: 90px;
+    padding-bottom: 10px;
+    filter: grayscale(60%)
+
+}
