@@ -5,8 +5,8 @@ import Card from './Card'
 const AboutMe = () => {
     return (
         <div id="AboutMe" className={styles['header']}>
-        <div className={styles['background']}>
             <div className={styles['footer'] + " container"}>
+        <div className={styles['background']}>
             <div className={styles['headerTitle']}>
                 About Me
             </div>
@@ -16,7 +16,7 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-8">
                     <p>My name is Danielle Kuhn and I am a front-end develodiver with full-stack experience. I'm currently looking for an entry-level, front-end developer position where I can contribute to building world-class applications with great people!</p>
-                    <p>I entered the tech industry about five years ago when I founded a <a style={{color: "white", textDecoration: "underline"}} href="https://pingpongpayments.com/">Fintech company</a> because I love solving complex problems, especially through the use of technology. Throughout that journey I realized 
+                    <p>I entered the tech industry about five years ago when I founded a <a style={{color: "#404040", textDecoration: "underline"}} href="https://pingpongpayments.com/">Fintech company</a> because I love solving complex problems, especially through the use of technology. Throughout that journey I realized 
                     that I am enamored with engineering challenges and what can be accomplished with code. It became my goal to learn how to build software like we had created for our customers. I've
                     have been creating applications ever since and it has become my passion! </p>
                     <p>Prior to entering the tech space, I was an actuary for six years after graduating from the University of Wisconsin-Madison. Even as an actuary, I always gravitated to the more technical parts of the profession and loved developing complex actuarial models.  </p>
