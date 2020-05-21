@@ -1,0 +1,98 @@
+.background {
+    font-family: 'Ropa Sans', sans-serif;
+    background-color: #404040;
+    color: #E8E8E8;
+    margin-top: 300px;
+}
+
+.header {
+    margin-top: 200px;
+}
+
+.headerTitle {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #404040;
+}
+
+.footer {
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.spaceImage{
+    filter: grayscale(80%);
+    width: 100%;
+    height: auto;
+}
+
+.cardSize {
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageBar {
+    background-color: gray;
+}
+
+.profileImage {
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+    border: 2px solid #f4f0ec;
+    /* opacity: .8; */
+    margin-top: 8px;
+    margin-bottom: 8px;
+    filter: grayscale(50%);
+}
+
+.imageContainer {
+    max-width: 170px;
+    margin: auto;
+}
+
+.cardBody {
+    background-color: #f4f0ec;
+}
+
+.nameText {
+    padding-left: 5px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #404040;
+    margin: auto;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.line {
+    color: #404040;
+    text-align: center;
+}
+
+.titleText {
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: #404040;
+    margin: auto;
+    text-align: center;
+}
+
+.logoContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logoLinkedin {
+    max-width: 30px;
+    padding: 2px;
+    opacity: .63;
+}
+
+.logoGithub {
+    max-width: 30px;
+    padding: 2px;
+    opacity: .7;
+}
