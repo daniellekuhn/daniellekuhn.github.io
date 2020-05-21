@@ -5,12 +5,12 @@ import AboutMe from '../Components/AboutMe/AboutMe'
 import Projects from '../Components/Projects/Projects'
 import ContactMe from '../Components/ContactMe/ContactMe'
 // import Experience from '../Components/Experience/Experience'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import styles from './App.module.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div id="home" className={styles['background']}>
         <Navbar/>
         <ImageBar/>
@@ -18,7 +18,7 @@ function App() {
         <Projects />
         <ContactMe />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
