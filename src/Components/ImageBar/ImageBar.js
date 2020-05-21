@@ -1,38 +1,28 @@
 import React from 'react';
+import styles from './Image.module.css'
 
 const ImageBar = () => {
+    let imgStyles = ["d-block", "w-100"]
+    imgStyles.push(styles['image'])
+
     return (
-        <div>
-            <div id="carouselExampleCaptions" className="carousel slide carouselImg" data-ride="carousel">
+        <div id="home" className={styles['background']}>
+            <div id="carouselExampleCaptions" className="carousel slide carouselImg" style={{marginTop: "56px"}} data-ride="carousel">
                 <div className="carousel-inner">
-                        <img src="https://i.imgur.com/DRnDNsE.jpg" className="d-block w-100" alt="..."></img>
-                    <div className="carousel-item active">
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>About Me</h5>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <img className={imgStyles.join(' ')} src="https://i.imgur.com/q89EAFa.jpg" alt="..."></img>
+                        <div className={styles['header']}>
+                            <div className={styles['headerText']}>
+                                <div>Hello!</div>
+                                <div>I'm</div>
+                                <div>Danielle</div>
+                                <div>Kuhn</div>
+                            </div>
+                            {/* <div className={styles['subText']}>
+                                <div>Front-End Developer, Actuary and FinTech Cofounder</div>
+                            </div> */}
                         </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>My Projects</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                    <div className="carousel-item">
-                        <div className="carousel-caption d-none d-md-block">
-                            <h5>Experience</h5>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </div>
-                    </div>
+                    {/* </div> */}
                 </div>
-                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
             </div>
         </div>
     )
