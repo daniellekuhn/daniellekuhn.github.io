@@ -10,26 +10,17 @@
 
 .headerText {
     color: white;
-    /* text-shadow: 2px 2px black; */
-    -webkit-text-stroke-width: 0px;
+    text-shadow: 1px 1px #404040;
+    -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #404040;
     font-family: 'Ropa Sans', sans-serif;
-    font-size: 90px;
-    padding: 1px;
-    line-height: 1;
-}
-
-.subText {
-    color: white;
-    text-shadow: 2px 2px black;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: 20px;
+    font-size: 12vw;
     padding: 1px;
     line-height: 1;
 }
 
 .image {
-    filter: grayscale(50%)
+    filter: grayscale(60%)
 }
 
 .background {

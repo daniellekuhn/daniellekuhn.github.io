@@ -3,7 +3,7 @@ import styles from './About.module.css'
 
 const Card = () => {
     return(
-        <div className={styles['cardSize'] + " card"}>
+        <div className={styles['cardSize'] + " card d-flex justify-content-center"}>
             <div className={styles['imageBar']}>
                 <div className={styles['imageContainer']}>
                     <img className={styles['profileImage']} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img>
