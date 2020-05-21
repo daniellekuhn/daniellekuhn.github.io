@@ -1,3 +1,13 @@
 .link {
     color: blue;    
 }
+
+.overall {
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 18px;
+}
+
+.background {
+    background-color: #404040;
+    color: #E8E8E8;
+}
