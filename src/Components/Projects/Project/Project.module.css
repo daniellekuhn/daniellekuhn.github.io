@@ -1,8 +1,10 @@
 .descriptionTitle {
     font-size: 32px;
     font-weight: bold;
-    margin-top: 10px;
+    padding-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
+    color: #404040;
     text-align: center;
 }
 
@@ -14,28 +16,161 @@
 }
 
 .table {
-    font-size: 10px;
     margin-bottom: 5px;
-    background-color: #E8E8E8;
-}
-
-.rows {
-    width: 100px;
-    height: 50px;
-    border: .5px solid #404040;
-    text-align: center;
 }
 
 .underline {
-    border: 1px solid #E8E8E8;
+    background-color: #E8E8E8;
+    color: #404040;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 150px;
-    filter: grayscale(60%)
-}
-
-.underline2 {
-    border: 1px solid #E8E8E8;
-    margin-top: 90px;
+    filter: grayscale(60%);
     padding-bottom: 10px;
-    filter: grayscale(60%)
-
+    padding-top: 10px;
 }
+
+.projectOverview {
+    font-size: 18px;
+    text-align: center;
+}
+
+.projectHeader {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.techStack {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width: 690px) {
+    .demo {
+        height: 390px;
+    }
+}
+
+@media (max-width: 689px) {
+    .demo {
+        height: 300px;
+    }
+}
+
+.logoImages {
+    width: 100px;
+}
+
+/* Gigl */
+.tableGigl {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 690px) {
+    .tableGigl {
+        margin-top: 10px;
+    }
+}
+
+.rowsGigl {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+}
+
+@media (min-width: 690px) {
+    .rowsGigl{
+        width: 400px;
+        height: 75px;
+    }
+}
+
+/* ArrToZone */
+@media (min-width: 690px) {
+    .rowsArrToZone{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 689px) {
+    .rowsArrToZone{
+        width: 100px;
+        height: 50px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 690px) {
+    .logoImagesArrToZone {
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 689px) {
+    .logoImagesArrToZone {
+        width: 60px;
+    }
+}
+
+@media (min-width: 690px) {
+    .demoArrToZone {
+        width: 350px;
+        border: 4px solid #404040;
+    }
+}
+
+@media (max-width: 689px) {
+    .demoArrToZone {
+        height: 220px;
+        border: 4px solid #404040;
+        margin-top: 8px; 
+    }
+}
+
+/* Trivia */
+.rowsTrivia {
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+
+.logoImagesTrivia {
+    width: 100px;
+}
+
+@media (min-width: 690px) {
+    .logoImagesTrivia {
+        width: 200px;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 690px) {
+    .demoTrivia {
+        height: 350px;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 689px) {
+    .demoTrivia {
+        height: 300px;
+    }
+}
+
+/* @media (min-width: 690px) {
+    .rowsTrivia {
+
+    }
+} */
+
+
+
+
+
+ 

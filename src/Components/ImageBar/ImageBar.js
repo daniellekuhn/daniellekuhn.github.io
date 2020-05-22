@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Image.module.css'
 
 const ImageBar = () => {
-    let imgStyles = ["d-block", "w-100"]
+    let imgStyles = ["d-block"]
     imgStyles.push(styles['image'])
 
     return (
@@ -17,11 +17,7 @@ const ImageBar = () => {
                                 <div>Danielle</div>
                                 <div>Kuhn</div>
                             </div>
-                            {/* <div className={styles['subText']}>
-                                <div>Front-End Developer, Actuary and FinTech Cofounder</div>
-                            </div> */}
                         </div>
-                    {/* </div> */}
                 </div>
             </div>
         </div>

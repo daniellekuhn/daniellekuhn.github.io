@@ -2,32 +2,42 @@
     font-family: 'Ropa Sans', sans-serif;
     background-color: #f4f0ec;
     color: #404040;
-    margin-top: 300px;
+    margin-top: 200px;
     padding-left: 8px;
     padding-right: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
+@media (min-width: 690px) {
+    .background{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 689px) {
+    .background{
+        margin-top: 200px;
+    }
+}
+
 .header {
-    margin-top: 200px;
+    padding-top: 1px;
 }
 
 .headerTitle {
     text-align: center;
-    font-size: 60px;
-    margin-bottom: 5px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .aboutMeText {
     font-size: xx-large;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .footer {
-    margin-top: 100px;
-    margin-bottom: 300px;
+    margin-bottom: 200px;
 }
 
 .spaceImage{
@@ -36,9 +46,16 @@
     height: auto;
 }
 
+@media (max-width: 689px) {
+    .spaceImage {
+        width: 0;
+        height: auto;
+    }
+}
+
 .cardSize {
     max-width: 400px;
-    background-color: #404040;
+    border: none !important;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -52,8 +69,6 @@
     width: 100%;
     border: 2px solid #f4f0ec;
     /* opacity: .8; */
-    margin-top: 8px;
-    margin-bottom: 8px;
     filter: grayscale(50%);
 }
 
@@ -63,7 +78,7 @@
 }
 
 .cardBody {
-    background-color: #f4f0ec;
+    background-color: white;
 }
 
 .nameText {

@@ -3,8 +3,7 @@ import Navbar from '../Components/Navbar/Navbar'
 import ImageBar from '../Components/ImageBar/ImageBar'
 import AboutMe from '../Components/AboutMe/AboutMe'
 import Projects from '../Components/Projects/Projects'
-import ContactMe from '../Components/ContactMe/ContactMe'
-// import Experience from '../Components/Experience/Experience'
+import Footer from '../Components/Footer/Footer'
 import { HashRouter } from 'react-router-dom'
 import styles from './App.module.css'
 
@@ -16,7 +15,7 @@ function App() {
         <ImageBar/>
         <AboutMe />
         <Projects />
-        <ContactMe />
+        <Footer />
       </div>
     </HashRouter>
   );

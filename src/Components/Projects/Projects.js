@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Projects.module.css'
 import Gigl from './Project/Gigl';
 import Trivia from './Project/Trivia';
-import ArrToZone from './Project/ArrToZone'
+import ArrToZone from './Project/ArrToZone';
 
 const Projects = () => {
     return (
@@ -11,28 +11,43 @@ const Projects = () => {
         <div className="container">
         <div className={styles['headerTitle']}>Software Projects</div>
             <div className="row text-center">
-                <div className="col-4 d-flex flex-column px-0">
-                    <div className={styles['projectTitle']}>Gigl</div>
-                    <div className="embed-responsive embed-responsive-1by1 w-100">
-                        <a href="https://github.com/hratx47-gigl/Gigl-Website">
-                            <img src="https://i.imgur.com/wpHMheM.png" alt="..." className={styles['projectImg'] + " embed-responsive-item"}></img>
+                <div className="col-md-4 d-flex justify-content-center">
+                    <div className="container">
+                        <div className="embed-responsive embed-responsive-1by1 w-70">
+                            <a href="/#Gigl">
+                                <img src="https://i.imgur.com/7ulDwMp.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
+                            </a>
+                        </div>
+                        <div className={styles['imageFooter']}>
+                            Gigl
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-4 d-flex justify-content-center">
+                    <div className="container">
+                    <div className="embed-responsive embed-responsive-1by1 w-70">
+                        <a href="/#TriviaApp">
+                            <img src="https://i.imgur.com/mQlCuhR.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
                         </a>
                     </div>
-                </div>
-                <div className="col-4 d-flex flex-column px-0">
-                <div className={styles['projectTitle']}>Trivia App</div>
-                    <div className="embed-responsive embed-responsive-1by1 w-100">
-                        <img src="https://i.imgur.com/X6GsFrg.png" alt="..." className={styles['projectImg'] + " embed-responsive-item"}></img>
+                    <div className={styles['imageFooter']}>
+                        Trivia App
+                    </div>
                     </div>
                 </div>
-                <div className="col-4 d-flex flex-column px-0">
-                <div className={styles['projectTitle']}>ArrToZone</div>
-                    <div className="embed-responsive embed-responsive-1by1 w-100">
-                        <img src="https://i.imgur.com/PTfA5gx.png" alt="..." className={styles['projectImg'] + " embed-responsive-item"}></img>
+                <div className="col-md-4 d-flex justify-content-center">
+                    <div className="container">
+                        <div className="embed-responsive embed-responsive-1by1 w-70">
+                            <a href="/#ArrToZone">
+                                <img src="https://i.imgur.com/g87OHG0.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
+                            </a>
+                        </div>
+                        <div className={styles['imageFooter']}>
+                            ArrToZone
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className={styles['clickFor']}>Click for Github repo!</div>
             <Gigl />
             <Trivia />
             <ArrToZone />
@@ -46,20 +61,3 @@ const Projects = () => {
 export default Projects;
 
 
-/* <div className="container">
-                    
-                    <div className="row">
-                        <div className="col-4">
-                            <div className={styles['projectContainer']}>
-                                <img className={styles['projectImg1']} src="https://i.imgur.com/wpHMheM.png" alt="..."></img>
-                            </div>
-                        </div>
-                        <div className="col-4">
-                            <img className={styles['projectImg1']} src="https://i.imgur.com/X6GsFrg.png" alt="..."></img>
-                        </div>
-                        <div className="col-4">3</div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                 */
