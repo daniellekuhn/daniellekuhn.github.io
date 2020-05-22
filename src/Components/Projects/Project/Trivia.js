@@ -16,9 +16,7 @@ const Trivia = () => {
                                 Multiple-choice trivia application that is compatible with iOS, Android, and web browser
                                 </div>
                                 <div className={styles['projectOverview'] + " mb-1"}>I built a full-stack trivia application, compatible with iOS, Android, and web browser for friends and family to play while in quarantine!
-                                Current trivia questions include multiple-choice Geography and Computer questions!
-                                </div>
-                                <div>
+                                Current trivia questions include multiple-choice Geography and Computer questions! &nbsp;
                                     <a className={styles['viewGithub']} href="https://github.com/daniellekuhn/DKTriviaApp">
                                         View on Github!
                                     </a>
@@ -46,7 +44,3 @@ const Trivia = () => {
 
 export default Trivia;
 
-
-/* <b>Mobile trivia app:</b> Multiple-choice trivia application that is compatible with iOS, Android, and web browser	 */
-                              
-//  <b>ArrToZone website: </b>Recreation of AutoZone's website with a pirate theme

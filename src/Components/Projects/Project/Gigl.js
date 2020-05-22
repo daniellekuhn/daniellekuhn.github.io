@@ -13,10 +13,9 @@ const Gigl = () => {
                                 <div className={styles['projectHeader']}>
                                     Marketplace that allows clients to book freelancers for their upcoming events
                                 </div>
-                                <div className={styles['projectOverview'] + " mb-1"}>Have an event coming up and need talent? Gigl is a platform that connects clients to local freelancers such as photographers, bartenders, artists, and entertainers. Our website allows clients to post upcoming gigs and select a performer that meets their needs. It also allows talented peformers to create a profile, view gigs in their area, and apply for them!</div>
-                                <div>
+                                <div className={styles['projectOverview'] + " mb-1"}>Have an event coming up and need talent? Gigl is a platform that connects clients to local freelancers such as photographers, bartenders, artists, and entertainers. Our website allows clients to post upcoming gigs and select a performer that meets their needs. It also permits talented peformers to create a profile, view gigs in their area, and apply for them! 
                                     <a className={styles['viewGithub']} href="https://github.com/hratx47-gigl/Gigl-Website" >
-                                    View on GitHub!
+                                     &nbsp; View on GitHub!
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">

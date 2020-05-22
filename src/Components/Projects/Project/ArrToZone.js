@@ -11,11 +11,9 @@ const ArrToZone = () => {
                             <div className={styles['projectHeader']}>
                                 Recreation of AutoZone's website with a pirate theme
                                 </div>
-                                <div className={styles['projectOverview'] + " mb-1"}>Recreation of AutoZone's website with a pirate theme using service-ordiented architecture. I built out the navigation and search component, including frontend and backend.  
-                                </div>
-                                <div>
+                                <div className={styles['projectOverview'] + " mb-1"}>Recreation of AutoZone's website with a pirate theme using service-ordiented architecture. I built out the navigation and search component, including frontend and backend.&nbsp;   
                                     <a className={styles['viewGithub']} href="https://github.com/daniellekuhn/AutoZone-replica-SOA">
-                                        View on Github!
+                                       View on Github!
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
