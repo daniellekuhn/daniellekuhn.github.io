@@ -4,18 +4,19 @@ import styles from './Project.module.css'
 const ArrToZone = () => {
     return (
             <div id="ArrToZone" className="pt-1">
+                <div className={styles['descriptionTitle']}>ArrToZone</div>
                 <div className={styles['underline'] + " container pt-3"}>
-                    <div className="text-center">
-                        <a href="https://github.com/daniellekuhn/AutoZone-replica-SOA" className={styles['descriptionTitle']}>
-                            ArrToZone
-                        </a>
-                    </div>
                     <div className="row">
                             <div className="col-lg-7">
                             <div className={styles['projectHeader']}>
                                 Recreation of AutoZone's website with a pirate theme
                                 </div>
                                 <div className={styles['projectOverview'] + " mb-1"}>Recreation of AutoZone's website with a pirate theme using service-ordiented architecture. I built out the navigation and search component, including frontend and backend.  
+                                </div>
+                                <div>
+                                    <a className={styles['viewGithub']} href="https://github.com/daniellekuhn/AutoZone-replica-SOA">
+                                        View on Github!
+                                    </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
                                 <table className={styles['table']}>

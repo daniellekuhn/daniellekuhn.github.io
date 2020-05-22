@@ -3,6 +3,7 @@ import styles from './Projects.module.css'
 import Gigl from './Project/Gigl';
 import Trivia from './Project/Trivia';
 import ArrToZone from './Project/ArrToZone';
+import { HashLink as Link } from 'react-router-hash-link'
 
 const Projects = () => {
     return (
@@ -14,9 +15,9 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
-                            <a href="/#Gigl">
-                                <img src="https://i.imgur.com/7ulDwMp.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
-                            </a>
+                            <Link to="/#Gigl">
+                                <img src="https://i.imgur.com/7ulDwMp.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>       
+                            </Link>
                         </div>
                         <div className={styles['imageFooter']}>
                             Gigl
@@ -26,9 +27,9 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                     <div className="embed-responsive embed-responsive-1by1 w-70">
-                        <a href="/#TriviaApp">
+                        <Link to="/#TriviaApp">
                             <img src="https://i.imgur.com/mQlCuhR.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
-                        </a>
+                        </Link>
                     </div>
                     <div className={styles['imageFooter']}>
                         Trivia App
@@ -38,9 +39,9 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
-                            <a href="/#ArrToZone">
+                            <Link to="/#ArrToZone">
                                 <img src="https://i.imgur.com/g87OHG0.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
-                            </a>
+                            </Link>
                         </div>
                         <div className={styles['imageFooter']}>
                             ArrToZone

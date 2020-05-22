@@ -4,12 +4,12 @@ import styles from './Project.module.css'
 const Trivia = () => {
     return (
             <div id="TriviaApp" className="pt-1">
+                <div className={styles['descriptionTitle']}>Trivia App</div>
                 <div className={styles['underline'] + " container pt-3"}>
-                    <div className="text-center">
-                        <a href="https://github.com/daniellekuhn/DKTriviaApp" className={styles['descriptionTitle']}>
-                            Trivia App
-                        </a>
-                    </div>
+                        {/* <a href="https://github.com/daniellekuhn/DKTriviaApp">
+                            
+                        </a> */}
+                    
                     <div className="row">
                             <div className="col-lg-7">
                             <div className={styles['projectHeader']}>
@@ -17,6 +17,11 @@ const Trivia = () => {
                                 </div>
                                 <div className={styles['projectOverview'] + " mb-1"}>I built a full-stack trivia application, compatible with iOS, Android, and web browser for friends and family to play while in quarantine!
                                 Current trivia questions include multiple-choice Geography and Computer questions!
+                                </div>
+                                <div>
+                                    <a className={styles['viewGithub']} href="https://github.com/daniellekuhn/DKTriviaApp">
+                                        View on Github!
+                                    </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
                                     <table className={styles['table']}>
@@ -31,7 +36,7 @@ const Trivia = () => {
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
                                 <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>
+                                <img className={styles['demoTrivia']} src="https://im3.ezgif.com/tmp/ezgif-3-21a42acf0853.gif" alt="..."></img>
                             </div>
                     </div>
                 </div>

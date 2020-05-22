@@ -2,22 +2,10 @@
     font-family: 'Ropa Sans', sans-serif;
     background-color: #f4f0ec;
     color: #404040;
-    margin-top: 200px;
     padding-left: 8px;
     padding-right: 8px;
+    padding-top: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
-}
-
-@media (min-width: 690px) {
-    .background{
-        margin-top: 70px;
-    }
-}
-
-@media (max-width: 689px) {
-    .background{
-        margin-top: 200px;
-    }
 }
 
 .header {
@@ -26,8 +14,22 @@
 
 .headerTitle {
     text-align: center;
-    font-size: 50px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 60px;
     font-weight: bold;
+    color: #e8e8e8;
+}
+
+@media (min-width: 690px) {
+    .headerTitle{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 689px) {
+    .headerTitle{
+        margin-top: 200px;
+    }
 }
 
 .aboutMeText {
