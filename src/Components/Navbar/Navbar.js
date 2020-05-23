@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="fixed-top">
         <nav className={"navbar navbar-expand-lg navbar-dark " +styles['background']}>
         <div className={"container " + styles['overall']}>
-            <Link className="navbar-brand" to={`${process.env.PUBLIC_URL}/#home`}>Danielle Kuhn</Link>
+            <Link className="navbar-brand" to="/#home">Danielle Kuhn</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
@@ -18,10 +18,10 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li className="nav-item ml-3">
-                    <Link className="nav-link" to={`${process.env.PUBLIC_URL}/#AboutMe`}>About Me</Link>
+                    <Link className="nav-link" to="/#AboutMe">About Me</Link>
                 </li>
                 <li className="nav-item ml-3">
-                    <Link className="nav-link" to={`${process.env.PUBLIC_URL}/#MyProjects`}>Software Projects</Link>
+                    <Link className="nav-link" to="/#MyProjects">Software Projects</Link>
                 </li>
             </ul>
             </div>
