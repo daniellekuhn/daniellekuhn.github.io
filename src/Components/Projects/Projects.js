@@ -15,7 +15,7 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
-                            <Link to="/#Gigl">
+                            <Link to={`${process.env.PUBLIC_URL}/Gigl`}>
                                 <img src="https://i.imgur.com/7ulDwMp.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>       
                             </Link>
                         </div>
@@ -27,7 +27,7 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                     <div className="embed-responsive embed-responsive-1by1 w-70">
-                        <Link to="/#TriviaApp">
+                        <Link to={`${process.env.PUBLIC_URL}/#TriviaApp`}>
                             <img src="https://i.imgur.com/mQlCuhR.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
                         </Link>
                     </div>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
-                            <Link to="/#ArrToZone">
+                            <Link to={`${process.env.PUBLIC_URL}/ArrToZone`}>
                                 <img src="https://i.imgur.com/g87OHG0.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
                             </Link>
                         </div>
