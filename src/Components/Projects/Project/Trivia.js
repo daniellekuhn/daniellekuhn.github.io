@@ -34,7 +34,7 @@ const Trivia = () => {
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
                                 <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demoTrivia']} src="https://im3.ezgif.com/tmp/ezgif-3-21a42acf0853.gif" alt="..."></img>
+                                <img className={styles['demoTrivia']} src="https://media.giphy.com/media/MFrjkWgWP53j4a7wBB/giphy.gif" alt="..."></img>
                             </div>
                     </div>
                 </div>
