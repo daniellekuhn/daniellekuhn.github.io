@@ -14,7 +14,7 @@ const AboutMe = () => {
                     <Card/>
                 </div>
                 <div className="col-lg-8">
-                    <p>My name is Danielle Kuhn and I am a front-end developer with full-stack experience. I'm currently looking for an entry-level, front-end developer position where I can contribute to building world-class applications with great people!</p>
+                    <p>My name is Danielle Kuhn and I am a front-end developer with full-stack experience.</p>
                     <p>I entered the tech industry about five years ago when I founded a <a style={{color: "#404040", textDecoration: "underline"}} href="https://pingpongpayments.com/">Fintech company</a> because I love solving complex problems, especially through the use of technology. Throughout that journey I realized 
                     that I am enamored with engineering challenges and what can be accomplished with code. It became my goal to learn how to build software like we had created for our customers and I've
                     have been creating applications ever since! </p>
