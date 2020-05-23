@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f1c6a5bf60b39f821256a715d61d47b",
+    "revision": "132204e3acb4298e9594de5f4270413c",
     "url": "/daniellekuhn.github.io/index.html"
   },
   {
-    "revision": "af903fc55c83ed2a9b52",
+    "revision": "5c06c3762848d1e7fa04",
     "url": "/daniellekuhn.github.io/static/css/main.9bb08281.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/daniellekuhn.github.io/static/js/2.909197db.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af903fc55c83ed2a9b52",
-    "url": "/daniellekuhn.github.io/static/js/main.2f77e7c2.chunk.js"
+    "revision": "5c06c3762848d1e7fa04",
+    "url": "/daniellekuhn.github.io/static/js/main.27a5c64f.chunk.js"
   },
   {
     "revision": "c7b815fdd9645c011599",
