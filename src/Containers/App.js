@@ -9,7 +9,7 @@ import styles from './App.module.css'
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter>
     <div id="home" className={styles['background']}>
         <Navbar/>
         <ImageBar/>
