@@ -10,58 +10,55 @@
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: #404040;
     font-family: 'Ropa Sans', sans-serif;
-    padding: 1px;
-    line-height: .9;
+    line-height: 1.1;
 }
 
 @media (min-width: 690px) {
     .header {
-        top: 10%;
+        top: 18%;
         left: 18%;    
     }
 }
 
 @media (max-width: 689px) {
     .header {
-        top: 10%;
-        left: 18%;
+        top: 9%;
+        left: 6%;
     }
 }
 
 @media (min-width: 690px) {
     .headerText {
-        font-size: 140px;
+        font-size: 90px;
     }
 }
 
 @media (max-width: 689px) {
     .headerText {
-        font-size: 60px;
+        font-size: 50px;
     }
 }
 
-.image {
-    filter: grayscale(60%);
-    opacity: .7;
-    width: 100%;
-    height: auto;
-}
-
-/* @media (min-width: 690px) {
+@media (min-width: 690px) {
     .image {
+        filter: grayscale(50%);
+        width: 100%;
+        height: auto;
     }
-} */
+}
 
 @media (max-width: 689px) {
     .image {
-        -webkit-transform: scale(1.5);
+        float: right;
+        filter: grayscale(50%);
+
+        /* -webkit-transform: scale(1.5);
         transform: scale(1.8);
         -webkit-transform-origin: center;
-        transform-origin: center;
-        /* height: 500px; */
+        transform-origin: center; */
     }
 }
-
+/* 
 @media (min-width: 690px) {
     .image {
         -webkit-transform: scale(1.5);
@@ -69,7 +66,7 @@
         -webkit-transform-origin: center;
         transform-origin: center;
     }
-}
+} */
 
 .background {
     font-family: 'Ropa Sans', sans-serif;

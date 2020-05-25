@@ -39,7 +39,6 @@ const Gigl = () => {
                                         </tbody>
                                     </table>
                                 </div>
-                                <div className={styles['websiteLink']}><a style={{color: "#E8E8E8"}} href="https://hratx47-gigl.herokuapp.com"> Check it out!</a></div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
                                 <img className={styles['demo']} src="https://thumbs.gfycat.com/AmazingJovialAoudad-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
