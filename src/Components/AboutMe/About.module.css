@@ -9,7 +9,7 @@
 }
 
 .header {
-    padding-top: 1px;
+    padding-top: 1000px;
 }
 
 .headerTitle {
@@ -18,13 +18,14 @@
     font-size: 60px;
     font-weight: bold;
     color: #e8e8e8;
+    padding-top: 60px;
 }
 
-@media (min-width: 690px) {
+/* @media (min-width: 690px) {
     .headerTitle{
         margin-top: 70px;
     }
-}
+} */
 
 @media (max-width: 689px) {
     .headerTitle{
@@ -43,6 +44,7 @@
 }
 
 .spaceImage{
+    /* background-image: url(./computer.jpg); */
     filter: grayscale(80%);
     width: 100%;
     height: auto;
@@ -81,6 +83,10 @@
 
 .cardBody {
     background-color: white;
+}
+
+.emojis {
+    text-align: center;
 }
 
 .nameText {
@@ -126,13 +132,14 @@
 
 @media (min-width: 690px) {
     p {
-        font-size: 20px;
+        font-size: 18px;
+        padding-right: 20px;
     }
 }
 
 @media (max-width: 689px) {
     p {
-        font-size: 24px;
+        font-size: 18px;
     }
 }
 

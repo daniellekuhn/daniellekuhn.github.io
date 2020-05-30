@@ -6,12 +6,15 @@ const Card = () => {
         <div className={styles['cardSize'] + " card d-flex justify-content-center"}>
             <div className={styles['imageBar']}>
                 <div className={styles['imageContainer']}>
-                    <img className={styles['profileImage']} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img>
+                    <img className={styles['profileImage'] + " img-responsive"} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img>
                 </div>
             </div>
             <div className={styles['cardBody']}>
                 <div className={styles['nameText']}>
                     <div>Danielle Kuhn</div>
+                </div>
+                <div className={styles['emojis']}>
+                    <span role="img" aria-label="activites">👩‍💻🏃‍♀️⛷🏄‍♀️🌎</span>
                 </div>
                 <div className={styles['line']}>
                     ---------
@@ -29,6 +32,9 @@ const Card = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/danielle-kuhn/">
                         <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1384/1384014.svg" alt="Linkedin"></img>
+                    </a>
+                    <a href="mailto:danielle@daniellekuhn.com">
+                        <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1782/1782765.svg" alt="MailTo"></img>
                     </a>
                 </div>
             </div>

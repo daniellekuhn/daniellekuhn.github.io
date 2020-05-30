@@ -4,7 +4,7 @@ import styles from './Project.module.css'
 const ArrToZone = () => {
     return (
             <div id="ArrToZone" className="pt-1">
-                <div className={styles['descriptionTitle']}>ArrToZone</div>
+                <h2 className={styles['descriptionTitle']}>ArrToZone</h2>
                 <div className={styles['underline'] + " container pt-3"}>
                     <div className="row">
                             <div className="col-lg-7">
@@ -36,7 +36,10 @@ const ArrToZone = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                <img className={styles['demoArrToZone']} src="https://media.giphy.com/media/S9Ka79Bc2nwVEeadn4/giphy.gif" alt="..."></img>
+                                <video autoPlay loop muted playsInline className={styles['demoArrToZone']}>  
+                                    <source src="ArrToZone.mp4" type="video/mp4"></source>   
+                                </video> 
+                                {/* <img className={styles['demoArrToZone']} src="https://media.giphy.com/media/S9Ka79Bc2nwVEeadn4/giphy.gif" alt="..."></img> */}
                             </div>
                     </div>
                 </div>

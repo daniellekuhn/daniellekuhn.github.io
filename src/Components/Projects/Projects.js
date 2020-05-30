@@ -3,14 +3,15 @@ import styles from './Projects.module.css'
 import Gigl from './Project/Gigl';
 import Trivia from './Project/Trivia';
 import ArrToZone from './Project/ArrToZone';
-import { HashLink as Link } from 'react-router-hash-link'
+import { HashLink as Link } from 'react-router-hash-link';
+import world from './world2.jpeg'
 
 const Projects = () => {
     return (
     <div id="MyProjects" className={styles['background']}>
         <div className={styles['footer']}>
         <div className="container">
-        <div className={styles['headerTitle']}>Software Projects</div>
+        <h1 className={styles['headerTitle']}>Software Projects</h1>
             <div className="row text-center">
                 <div className="col-md-4 d-flex justify-content-center">
                     <div className="container">
@@ -54,7 +55,7 @@ const Projects = () => {
             <ArrToZone />
         </div>
         </div> 
-        <img className={styles['spaceImage']} src="https://i.imgur.com/3syZHXm.jpg" alt="Background"></img>   
+        <img className={styles['spaceImage']} src={world} alt="Background"></img>   
     </div>
 )
 }

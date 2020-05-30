@@ -4,7 +4,7 @@ import styles from './Project.module.css'
 const Trivia = () => {
     return (
             <div id="TriviaApp" className="pt-1">
-                <div className={styles['descriptionTitle']}>Trivia App</div>
+                <h2 className={styles['descriptionTitle']}>Trivia App</h2>
                 <div className={styles['underline'] + " container pt-3"}>
                         {/* <a href="https://github.com/daniellekuhn/DKTriviaApp">
                             
@@ -33,8 +33,14 @@ const Trivia = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demoTrivia']} src="https://media.giphy.com/media/MFrjkWgWP53j4a7wBB/giphy.gif" alt="..."></img>
+                                {/* <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
+                                <img className={styles['demoTrivia']} src="https://media.giphy.com/media/MFrjkWgWP53j4a7wBB/giphy.gif" alt="..."></img> */}
+                                <video autoPlay loop muted playsInline className={styles['demoTrivia']}> 
+                                    <source src="Trivia1.mp4" type="video/mp4"></source>   
+                                </video> 
+                                <video autoPlay loop muted playsInline className={styles['demoTrivia']}>  
+                                    <source src="Trivia3.mp4" type="video/mp4"></source>   
+                                </video> 
                             </div>
                     </div>
                 </div>

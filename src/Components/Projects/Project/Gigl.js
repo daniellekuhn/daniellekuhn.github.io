@@ -4,7 +4,7 @@ import styles from './Project.module.css'
 const Gigl = () => {
     return (
             <div id="Gigl" className="pt-1">
-                <div className={styles['descriptionTitle']}>Gigl</div>
+                <h2 className={styles['descriptionTitle']}>Gigl</h2>
                 <div className={styles['underline'] + " container pt-3"}>
                         
                     
@@ -41,8 +41,14 @@ const Gigl = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                <img className={styles['demo']} src="https://thumbs.gfycat.com/AmazingJovialAoudad-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demo']} src="https://thumbs.gfycat.com/MixedSeparateGraywolf-size_restricted.gif" alt="..."></img>
+                                {/* <img className={styles['demo']} src="https://thumbs.gfycat.com/AmazingJovialAoudad-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
+                                <img className={styles['demo']} src="https://thumbs.gfycat.com/MixedSeparateGraywolf-size_restricted.gif" alt="..."></img> */}
+                                <video autoPlay loop muted playsInline className={styles['demo']}> 
+                                    <source src="Gigl1.mp4" type="video/mp4"></source>   
+                                </video> 
+                                <video autoPlay loop muted playsInline className={styles['demo']}>  
+                                    <source src="gigl2.mp4" type="video/mp4"></source>   
+                                </video> 
                             </div>
                     </div>
                 </div>
