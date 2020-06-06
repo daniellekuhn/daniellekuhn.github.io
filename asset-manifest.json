@@ -1,23 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.006c0bd3.chunk.css",
-    "main.js": "/static/js/main.e56510db.chunk.js",
-    "main.js.map": "/static/js/main.e56510db.chunk.js.map",
+    "main.js": "/static/js/main.c3f6ef03.chunk.js",
+    "main.js.map": "/static/js/main.c3f6ef03.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
-    "static/js/2.70461d4d.chunk.js": "/static/js/2.70461d4d.chunk.js",
-    "static/js/2.70461d4d.chunk.js.map": "/static/js/2.70461d4d.chunk.js.map",
+    "static/js/2.0186a869.chunk.js": "/static/js/2.0186a869.chunk.js",
+    "static/js/2.0186a869.chunk.js.map": "/static/js/2.0186a869.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.723652f5f108b3ee570afbb439292789.js": "/precache-manifest.723652f5f108b3ee570afbb439292789.js",
+    "precache-manifest.ad62420c1e32fd6c9909c77eb64059cd.js": "/precache-manifest.ad62420c1e32fd6c9909c77eb64059cd.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.006c0bd3.chunk.css.map": "/static/css/main.006c0bd3.chunk.css.map",
-    "static/js/2.70461d4d.chunk.js.LICENSE.txt": "/static/js/2.70461d4d.chunk.js.LICENSE.txt",
+    "static/js/2.0186a869.chunk.js.LICENSE.txt": "/static/js/2.0186a869.chunk.js.LICENSE.txt",
     "static/media/Image_mobile.jpg": "/static/media/Image_mobile.7941ad8d.jpg",
     "static/media/computer.jpg": "/static/media/computer.6281db4d.jpg",
     "static/media/computer.webp": "/static/media/computer.72e6e092.webp",
     "static/media/image.jpg": "/static/media/image.c171a4da.jpg",
     "static/media/output.webp": "/static/media/output.168d6e42.webp",
     "static/media/output_main.webp": "/static/media/output_main.b245bb38.webp",
+    "static/media/rsz_arrtozone.png": "/static/media/rsz_arrtozone.1307591b.png",
+    "static/media/rsz_arrtozone.webp": "/static/media/rsz_arrtozone.97815125.webp",
     "static/media/self.png": "/static/media/self.69b2cb60.png",
     "static/media/self.webp": "/static/media/self.e9ad17a1.webp",
     "static/media/world2.jpeg": "/static/media/world2.94c69a21.jpeg",
@@ -25,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7e4b9196.js",
-    "static/js/2.70461d4d.chunk.js",
+    "static/js/2.0186a869.chunk.js",
     "static/css/main.006c0bd3.chunk.css",
-    "static/js/main.e56510db.chunk.js"
+    "static/js/main.c3f6ef03.chunk.js"
   ]
 }
