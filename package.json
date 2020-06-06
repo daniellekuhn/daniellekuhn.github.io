@@ -143,6 +143,7 @@
   "devDependencies": {
     "css-loader": "^3.4.2",
     "gh-pages": "^2.2.0",
+    "react-image-webp": "^0.7.0",
     "style-loader": "^0.23.1"
   }
 }

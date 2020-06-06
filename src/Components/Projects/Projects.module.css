@@ -82,8 +82,7 @@
 
 @media (max-width: 689px) {
     .spaceImage {
-        width: 0;
-        height: auto;
+        display: none;
     }
 }
 

@@ -22,7 +22,7 @@ const AboutMe = () => {
                     <p>In addition to my tech background, I am also a credentialed Actuary with six years of actuarial science experience. Throughout my actuarial career, I have always gravitated to the more technical parts of the profession and love developing complex actuarial models.  </p>
                     <p>In order to take my engineering skills to the next level, I recently spent the last four months building software applications with other developers at Hack Reactor. I had the incredible opportunity to advance my JavaScript and React skills along with diving into a variety of other technologies.</p> 
                     <p>In my free time, I love to do anything active outdoors such as running, skiing, or wakesurfing and recently I’ve picked up bird watching! 
-                    I moved to Austin from NYC and am amazed by all of the beautiful birds that are in Austin. My boyfriend and I also recently adopted two kittens 
+                    I moved to Austin from NYC and am amazed by all of the beautiful birds that are in Austin. We also recently adopted two kittens 
                     that are eight weeks old - Winston Furchill and Franklin Pursevelt <span role="img" aria-label="cat">🐈🐈</span>!  
                      Similar to most, I love to visit and learn about other parts of the world. I had the incredible opportunity to work in China, Japan and Luxembourg.</p>
                     <p>Thank you for checking out my website. I hope you enjoy it!</p>               
