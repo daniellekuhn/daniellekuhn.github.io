@@ -1,12 +1,20 @@
 import React from 'react'
 import styles from './About.module.css'
+import Image from 'react-image-webp';
+import self from './self.png'
+import self_web from './self.webp'
 
 const Card = () => {
     return(
         <div className={styles['cardSize'] + " card d-flex justify-content-center"}>
             <div className={styles['imageBar']}>
                 <div className={styles['imageContainer']}>
-                    <img className={styles['profileImage'] + " img-responsive"} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img>
+                    <Image
+                        src={self}
+                        webp={self_web}
+                        className={styles['profileImage'] + " img-responsive"}
+                    />
+                    {/* <img className={styles['profileImage'] + " img-responsive"} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img> */}
                 </div>
             </div>
             <div className={styles['cardBody']}>

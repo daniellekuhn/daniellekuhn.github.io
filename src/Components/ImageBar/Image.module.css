@@ -15,36 +15,32 @@
 
 @media (min-width: 690px) {
     .header {
-        top: 18%;
+        top: 16%;
         left: 18%;    
     }
 }
 
 @media (max-width: 689px) {
     .header {
-        margin-top: 56px;
+        /* margin-top: 56px; */
+        top: 18%;
         left: 7%;    
     }
 }
 
-@media (min-width: 690px) {
-    .imgContainer {
-        width: 100%;
-        margin-top: 56px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
+/* .imgContainer {
+    margin-top: 56px;
+} */
 
 @media (min-width: 690px) {
     .headerText {
-        font-size: 110px;
+        font-size: 12vw;
     }
 }
 
 @media (max-width: 689px) {
     .headerText {
-        font-size: 50px;
+        font-size: 15vw;
     }
 }
 
@@ -53,6 +49,7 @@
         filter: grayscale(50%);
         width: 100%;
         height: auto;
+        margin-top: 56px;
     }
 }
 
@@ -70,10 +67,10 @@
 
 @media (max-width: 689px) {
     .imageMobile {
-        float: right;
+        /* float: right; */
         filter: grayscale(50%);
-        height: 550px;
         width: 100%;
+        height: auto;
         margin-top: 56px;
     }
 }

@@ -4,7 +4,12 @@ import Gigl from './Project/Gigl';
 import Trivia from './Project/Trivia';
 import ArrToZone from './Project/ArrToZone';
 import { HashLink as Link } from 'react-router-hash-link';
-import world from './world2.jpeg'
+import world from './Images/world2.jpeg'
+import Image from 'react-image-webp';
+import world_web from './Images/world2.webp'
+import arrtozone_web from './Images/rsz_arrtozone.webp'
+import arrtozone from './Images/rsz_arrtozone.png'
+
 
 const Projects = () => {
     return (
@@ -41,7 +46,11 @@ const Projects = () => {
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
                             <Link to="/#ArrToZone">
-                                <img src="https://i.imgur.com/g87OHG0.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
+                                <Image
+                                    src={arrtozone}
+                                    webp={arrtozone_web}
+                                    className={styles['projectImg'] + " embed-responsive-item p-3"}
+                                />
                             </Link>
                         </div>
                         <div className={styles['imageFooter']}>
@@ -55,7 +64,11 @@ const Projects = () => {
             <ArrToZone />
         </div>
         </div> 
-        <img className={styles['spaceImage']} src={world} alt="Background"></img>   
+        <Image
+            src={world}
+            webp={world_web}
+            className={styles['spaceImage']}
+        />
     </div>
 )
 }

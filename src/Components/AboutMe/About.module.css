@@ -16,7 +16,7 @@
 
 @media (max-width: 689px) {
     .header {
-        padding-top: 1000px;
+        padding-top: 70px;
     }
 }
 
@@ -114,7 +114,7 @@
 }
 
 .titleText {
-    font-size: 20px;;
+    font-size: 16px;
     /* font-weight: bold; */
     color: #404040;
     margin: auto;
@@ -127,21 +127,21 @@
 }
 
 .logoLinkedin {
-    max-width: 50px;
+    max-width: 35px;
     padding: 3px;
     opacity: .63;
 }
 
 .logoGithub {
-    max-width: 50px;
+    max-width: 35px;
     padding: 3px;
     opacity: .7;
 }
 
 @media (min-width: 690px) {
     p {
-        font-size: 18px;
-        padding-right: 20px;
+        font-size: 16px;
+        padding-right: 15px;
     }
 }
 

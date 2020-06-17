@@ -1,5 +1,9 @@
 import React from 'react';
 import styles from './Project.module.css'
+import Image from 'react-image-webp';
+import docker from './Images/rsz_docker.png'
+import docker_web from './Images/rsz_docker.webp'
+
 
 const ArrToZone = () => {
     return (
@@ -28,7 +32,13 @@ const ArrToZone = () => {
                                         <tr>
                                             <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png" alt="Bootstrap" title="Bootstrap"/></td>
                                             <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" alt="Express" title="Express"/></td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/Docker-Logo-White-RGB_Vertical-BG_0.png?itok=8Tuac9I3" alt="Docker" title="Docker"/></td>
+                                            <td className={styles['rowsArrToZone']}>
+                                                <Image 
+                                                    src={docker}
+                                                    webp={docker_web}
+                                                    className={styles['logoImagesArrToZone']}
+                                                />
+                                            </td>
                                             <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/272px-MySQL.svg.png" alt="MySQL" title="MySQL"/></td>
                                         </tr>
                                     </tbody>

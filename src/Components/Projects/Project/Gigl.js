@@ -13,9 +13,9 @@ const Gigl = () => {
                                 <div className={styles['projectHeader']}>
                                     Marketplace that allows clients to book freelancers for their upcoming events
                                 </div>
-                                <div className={styles['projectOverview'] + " mb-1"}>Have an event coming up and need talent? Gigl is a platform that connects clients to local freelancers such as photographers, bartenders, artists, and entertainers. Our website allows clients to post upcoming gigs and select a performer that meets their needs. It also permits talented peformers to create a profile, view gigs in their area, and apply for them! 
+                                <div className={styles['projectOverview'] + " mb-1"}>Have an event coming up and need talent? Gigl is a platform that connects clients to local freelancers such as photographers, bartenders, artists, and entertainers. Our website allows clients to post upcoming gigs and select a performer that meets their needs. It also permits talented peformers to create a profile, view gigs in their area, and apply for them! &nbsp;
                                     <a className={styles['viewGithub']} href="https://github.com/hratx47-gigl/Gigl-Website" >
-                                     &nbsp; View on GitHub!
+                                     View on GitHub!
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
@@ -24,7 +24,7 @@ const Gigl = () => {
                                         <tr>
                                             <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
                                             <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node.js" title="Node.js"/></td>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://www3.assets.heroku.com/assets/logo-purple-08fb38cebb99e3aac5202df018eb337c5be74d5214768c90a8198c97420e4201.svg" alt="Heroku" title="Heroku"/></td>
+                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" alt="Heroku" title="Heroku"/></td>
                                         </tr>
                                         <tr>
                                             <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png" alt="Axios" title="Axios"/></td>
