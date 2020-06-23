@@ -33,11 +33,11 @@ const AboutMe = () => {
             </div>
         </div>
     </div>
-        <Image
-            src={computer}
-            webp={computer_web}
-            className={styles['spaceImage']}
-        />
+            <Image
+                src={computer}
+                webp={computer_web}
+                className={styles['spaceImage']}
+            />
     </div>
     )
 }

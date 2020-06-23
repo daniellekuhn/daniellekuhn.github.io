@@ -15,7 +15,7 @@
 
 @media (min-width: 690px) {
     .header {
-        top: 16%;
+        top: 14%;
         left: 18%;    
     }
 }
@@ -34,7 +34,7 @@
 
 @media (min-width: 690px) {
     .headerText {
-        font-size: 12vw;
+        font-size: 11vw;
     }
 }
 

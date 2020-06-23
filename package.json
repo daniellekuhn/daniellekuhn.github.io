@@ -48,6 +48,8 @@
     "react-app-polyfill": "^1.0.6",
     "react-dev-utils": "^10.2.1",
     "react-dom": "^16.13.1",
+    "react-lazy-load": "^3.0.13",
+    "react-responsive-picture": "^3.2.2",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^1.2.2",

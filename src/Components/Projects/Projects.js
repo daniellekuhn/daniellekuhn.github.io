@@ -9,6 +9,7 @@ import Image from 'react-image-webp';
 import world_web from './Images/world2.webp'
 import arrtozone_web from './Images/rsz_arrtozone.webp'
 import arrtozone from './Images/rsz_arrtozone.png'
+import LazyLoad from 'react-lazy-load';
 
 
 const Projects = () => {
@@ -64,11 +65,13 @@ const Projects = () => {
             <ArrToZone />
         </div>
         </div> 
-        <Image
-            src={world}
-            webp={world_web}
-            className={styles['spaceImage']}
-        />
+        <LazyLoad offset={6000}>
+            <Image
+                src={world}
+                webp={world_web}
+                className={styles['spaceImage']}
+            />
+        </LazyLoad>
     </div>
 )
 }

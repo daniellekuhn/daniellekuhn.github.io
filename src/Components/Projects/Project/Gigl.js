@@ -1,5 +1,6 @@
 import React from 'react';
-import styles from './Project.module.css'
+import styles from './Project.module.css';
+import LazyLoad from 'react-lazy-load';
 
 const Gigl = () => {
     return (
@@ -41,14 +42,16 @@ const Gigl = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                {/* <img className={styles['demo']} src="https://thumbs.gfycat.com/AmazingJovialAoudad-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demo']} src="https://thumbs.gfycat.com/MixedSeparateGraywolf-size_restricted.gif" alt="..."></img> */}
-                                <video autoPlay loop muted playsInline className={styles['demo']}> 
-                                    <source src="Gigl1.mp4" type="video/mp4"></source>   
-                                </video> 
+                                <LazyLoad offset={4000}>
+                                    <video autoPlay loop muted playsInline className={styles['demo']}> 
+                                        <source src="Gigl1.mp4" type="video/mp4"></source>   
+                                    </video> 
+                                </LazyLoad>
+                                <LazyLoad offset={4000}>
                                 <video autoPlay loop muted playsInline className={styles['demo']}>  
                                     <source src="gigl2.mp4" type="video/mp4"></source>   
                                 </video> 
+                                </LazyLoad>
                             </div>
                     </div>
                 </div>

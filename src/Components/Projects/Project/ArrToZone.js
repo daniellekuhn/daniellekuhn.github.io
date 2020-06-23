@@ -3,7 +3,7 @@ import styles from './Project.module.css'
 import Image from 'react-image-webp';
 import docker from './Images/rsz_docker.png'
 import docker_web from './Images/rsz_docker.webp'
-
+import LazyLoad from 'react-lazy-load';
 
 const ArrToZone = () => {
     return (
@@ -46,9 +46,11 @@ const ArrToZone = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                <video autoPlay loop muted playsInline className={styles['demoArrToZone']}>  
-                                    <source src="ArrToZone.mp4" type="video/mp4"></source>   
-                                </video> 
+                                    <LazyLoad offset={4000}>
+                                    <video autoPlay loop muted playsInline className={styles['demoArrToZone']}>  
+                                        <source src="ArrToZone.mp4" type="video/mp4"></source>   
+                                    </video> 
+                                    </LazyLoad>
                                 {/* <img className={styles['demoArrToZone']} src="https://media.giphy.com/media/S9Ka79Bc2nwVEeadn4/giphy.gif" alt="..."></img> */}
                             </div>
                     </div>

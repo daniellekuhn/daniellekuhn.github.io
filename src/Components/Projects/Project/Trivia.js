@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Project.module.css'
+import LazyLoad from 'react-lazy-load';
 
 const Trivia = () => {
     return (
@@ -33,14 +34,16 @@ const Trivia = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
-                                {/* <img className={styles['demoTrivia']} src="https://thumbs.gfycat.com/WhoppingLightIrishterrier-size_restricted.gif" alt="..."></img>&nbsp;&nbsp;
-                                <img className={styles['demoTrivia']} src="https://media.giphy.com/media/MFrjkWgWP53j4a7wBB/giphy.gif" alt="..."></img> */}
+                                <LazyLoad offset={4000}>
                                 <video autoPlay loop muted playsInline className={styles['demoTrivia']}> 
                                     <source src="Trivia1.mp4" type="video/mp4"></source>   
                                 </video> 
+                                </LazyLoad>
+                                <LazyLoad offset={4000}>
                                 <video autoPlay loop muted playsInline className={styles['demoTrivia']}>  
                                     <source src="Trivia3.mp4" type="video/mp4"></source>   
                                 </video> 
+                                </LazyLoad>
                             </div>
                     </div>
                 </div>

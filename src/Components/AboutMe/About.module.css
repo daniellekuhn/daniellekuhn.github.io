@@ -114,7 +114,7 @@
 }
 
 .titleText {
-    font-size: 16px;
+    font-size: 18px;
     /* font-weight: bold; */
     color: #404040;
     margin: auto;
@@ -128,19 +128,20 @@
 
 .logoLinkedin {
     max-width: 35px;
-    padding: 3px;
+    /* padding: 3px; */
     opacity: .63;
+    filter: grayscale(100%)
 }
 
 .logoGithub {
-    max-width: 35px;
-    padding: 3px;
+    max-width: 36px;
+    /* padding: 3px; */
     opacity: .7;
 }
 
 @media (min-width: 690px) {
     p {
-        font-size: 16px;
+        font-size: 18px;
         padding-right: 15px;
     }
 }

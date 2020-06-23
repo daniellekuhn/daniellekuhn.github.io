@@ -14,7 +14,6 @@ const Card = () => {
                         webp={self_web}
                         className={styles['profileImage'] + " img-responsive"}
                     />
-                    {/* <img className={styles['profileImage'] + " img-responsive"} src="https://i.imgur.com/pF9A0ox.jpg" alt="..."></img> */}
                 </div>
             </div>
             <div className={styles['cardBody']}>
@@ -28,22 +27,34 @@ const Card = () => {
                     ---------
                 </div>
                 <div className={styles['titleText']}>
-                    <div>Front-End Developer, Actuary,</div>
-                    <div>and FinTech Cofounder</div>
+                    <div>Software engineer, Actuary,</div>
+                    <div>and FinTech cofounder</div>
                 </div>
                 <div className={styles['line']}>
                     ---------
                 </div>
                 <div className={styles['logoContainer']}>
-                    <a href="https://github.com/daniellekuhn">
-                        <img className={styles['logoGithub']} src="https://image.flaticon.com/icons/svg/2111/2111425.svg" alt="Github"></img>
-                    </a>
-                    <a href="https://www.linkedin.com/in/danielle-kuhn/">
-                        <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1384/1384014.svg" alt="Linkedin"></img>
-                    </a>
-                    <a href="mailto:danielle@daniellekuhn.com">
-                        <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1782/1782765.svg" alt="MailTo"></img>
-                    </a>
+                    <div className="container">
+                    <div className="row">
+                    <div className="col-3"></div>
+                    <div className="col-2">
+                        <a href="https://github.com/daniellekuhn">
+                            <img className={styles['logoGithub']} src="https://image.flaticon.com/icons/svg/2111/2111425.svg" alt="Github"></img>
+                        </a>
+                    </div>
+                    <div className="col-2">
+                        <a href="https://www.linkedin.com/in/danielle-kuhn/" >
+                            <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1384/1384014.svg" alt="Linkedin"></img>
+                        </a>
+                    </div>
+                    <div className="col-2">
+                        <a href="mailto:danielle@daniellekuhn.com">
+                            <img className={styles['logoLinkedin']} src="https://image.flaticon.com/icons/svg/1782/1782765.svg" alt="MailTo"></img>
+                        </a>
+                    </div>
+                    </div>
+                    </div>
+                    <div className="col-3"></div>
                 </div>
             </div>
         </div>
