@@ -1,18 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.f7b5f0eb.chunk.css",
-    "main.js": "/static/js/main.b123e02d.chunk.js",
-    "main.js.map": "/static/js/main.b123e02d.chunk.js.map",
+    "main.js": "/static/js/main.ea599427.chunk.js",
+    "main.js.map": "/static/js/main.ea599427.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
     "static/js/2.d7026bd1.chunk.js": "/static/js/2.d7026bd1.chunk.js",
     "static/js/2.d7026bd1.chunk.js.map": "/static/js/2.d7026bd1.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5ec4e6cfa34026fa0172cb8b3326b3a8.js": "/precache-manifest.5ec4e6cfa34026fa0172cb8b3326b3a8.js",
+    "precache-manifest.b3da793914b05cea1bc8c9edb223209b.js": "/precache-manifest.b3da793914b05cea1bc8c9edb223209b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f7b5f0eb.chunk.css.map": "/static/css/main.f7b5f0eb.chunk.css.map",
     "static/js/2.d7026bd1.chunk.js.LICENSE.txt": "/static/js/2.d7026bd1.chunk.js.LICENSE.txt",
     "static/media/Image_mobile.jpg": "/static/media/Image_mobile.7941ad8d.jpg",
+    "static/media/arrtozoneTech.png": "/static/media/arrtozoneTech.1c2191f8.png",
+    "static/media/arrtozoneTech.webp": "/static/media/arrtozoneTech.422e1813.webp",
     "static/media/computer.jpg": "/static/media/computer.6281db4d.jpg",
     "static/media/computer.webp": "/static/media/computer.72e6e092.webp",
     "static/media/giglTech.webp": "/static/media/giglTech.4f823632.webp",
@@ -20,7 +22,6 @@
     "static/media/image.jpg": "/static/media/image.c171a4da.jpg",
     "static/media/rsz_arrtozone.png": "/static/media/rsz_arrtozone.1307591b.png",
     "static/media/rsz_arrtozone.webp": "/static/media/rsz_arrtozone.97815125.webp",
-    "static/media/rsz_docker.webp": "/static/media/rsz_docker.8df14114.webp",
     "static/media/self.png": "/static/media/self.69b2cb60.png",
     "static/media/self.webp": "/static/media/self.e9ad17a1.webp",
     "static/media/world2.jpeg": "/static/media/world2.94c69a21.jpeg",
@@ -30,6 +31,6 @@
     "static/js/runtime-main.7e4b9196.js",
     "static/js/2.d7026bd1.chunk.js",
     "static/css/main.f7b5f0eb.chunk.css",
-    "static/js/main.b123e02d.chunk.js"
+    "static/js/main.ea599427.chunk.js"
   ]
 }
