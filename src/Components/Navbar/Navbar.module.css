@@ -8,8 +8,14 @@
     color: #E8E8E8;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 689px) {
     .navLinks{
         font-size: 14px;
+    }
+}
+
+@media (min-width: 690px) {
+    .navLinks{
+        padding: 15px;
     }
 }

@@ -93,8 +93,21 @@
     background-color: white;
 }
 
+@media (min-width: 992px) {
+    .cardBody{
+        margin-top: 10px;
+    }
+}
+
 .emojis {
     text-align: center;
+}
+
+@media (min-width: 992px) {
+    .emojis{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 .nameText {
@@ -121,9 +134,23 @@
     text-align: center;
 }
 
+@media (min-width: 992px) {
+    .titleText{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
 .logoContainer {
     text-align: center;
     margin-bottom: 20px;
+    margin-left: -10px;
+}
+
+@media (min-width: 992px) {
+    .logoContainer{
+        margin-top: 5px;
+    }
 }
 
 .logoLinkedin {

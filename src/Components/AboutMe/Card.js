@@ -27,7 +27,7 @@ const Card = () => {
                     ---------
                 </div>
                 <div className={styles['titleText']}>
-                    <div>Software engineer, Cofounder, Actuary</div>
+                    <div>Engineer, Cofounder, Actuary</div>
                 </div>
                 <div className={styles['line']}>
                     ---------
