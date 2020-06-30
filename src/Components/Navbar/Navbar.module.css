@@ -10,7 +10,9 @@
 
 @media (max-width: 689px) {
     .navLinks{
-        font-size: 14px;
+        font-size: 4vw;
+        padding-right: 8px;
+        padding-left: 5px;
     }
 }
 
