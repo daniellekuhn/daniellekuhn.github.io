@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.f7b5f0eb.chunk.css",
-    "main.js": "/static/js/main.ea599427.chunk.js",
-    "main.js.map": "/static/js/main.ea599427.chunk.js.map",
+    "main.js": "/static/js/main.09b1bd6f.chunk.js",
+    "main.js.map": "/static/js/main.09b1bd6f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
-    "static/js/2.d7026bd1.chunk.js": "/static/js/2.d7026bd1.chunk.js",
-    "static/js/2.d7026bd1.chunk.js.map": "/static/js/2.d7026bd1.chunk.js.map",
+    "static/js/2.1d0a9579.chunk.js": "/static/js/2.1d0a9579.chunk.js",
+    "static/js/2.1d0a9579.chunk.js.map": "/static/js/2.1d0a9579.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b3da793914b05cea1bc8c9edb223209b.js": "/precache-manifest.b3da793914b05cea1bc8c9edb223209b.js",
+    "precache-manifest.6ab05a54ce9dd84088549c9b6b5ed1f9.js": "/precache-manifest.6ab05a54ce9dd84088549c9b6b5ed1f9.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.f7b5f0eb.chunk.css.map": "/static/css/main.f7b5f0eb.chunk.css.map",
-    "static/js/2.d7026bd1.chunk.js.LICENSE.txt": "/static/js/2.d7026bd1.chunk.js.LICENSE.txt",
+    "static/js/2.1d0a9579.chunk.js.LICENSE.txt": "/static/js/2.1d0a9579.chunk.js.LICENSE.txt",
     "static/media/Image_mobile.jpg": "/static/media/Image_mobile.7941ad8d.jpg",
     "static/media/arrtozoneTech.png": "/static/media/arrtozoneTech.1c2191f8.png",
     "static/media/arrtozoneTech.webp": "/static/media/arrtozoneTech.422e1813.webp",
@@ -24,13 +24,15 @@
     "static/media/rsz_arrtozone.webp": "/static/media/rsz_arrtozone.97815125.webp",
     "static/media/self.png": "/static/media/self.69b2cb60.png",
     "static/media/self.webp": "/static/media/self.e9ad17a1.webp",
+    "static/media/triviaTech.webp": "/static/media/triviaTech.f406c945.webp",
+    "static/media/triviaTech.png": "/static/media/triviaTech.f7b042c6.png",
     "static/media/world2.jpeg": "/static/media/world2.94c69a21.jpeg",
     "static/media/world2.webp": "/static/media/world2.ee049d85.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.7e4b9196.js",
-    "static/js/2.d7026bd1.chunk.js",
+    "static/js/2.1d0a9579.chunk.js",
     "static/css/main.f7b5f0eb.chunk.css",
-    "static/js/main.ea599427.chunk.js"
+    "static/js/main.09b1bd6f.chunk.js"
   ]
 }
