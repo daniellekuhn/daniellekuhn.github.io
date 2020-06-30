@@ -8,19 +8,17 @@ const Navbar = () => {
         <nav className={"navbar navbar-expand-lg navbar-dark " +styles['background']}>
         <div className={"container " + styles['overall']}>
             <Link className="navbar-brand" to="/#home">Danielle Kuhn</Link>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
+            </button> */}
+            <div className="form-inline ml-auto">
+            {/* <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav mr-auto">
-                    <li className="nav-item ml-3">
-                        <Link className="nav-link" to="/#AboutMe">About Me</Link>
-                    </li>
-                    <li className="nav-item ml-3">
-                        <Link className="nav-link" to="/#MyProjects">Software Projects</Link>
-                    </li>
-                </ul>
+                    <li className="nav-item ml-3"> */}
+                        <Link className={"nav-link text-light pl-0 pr-2 " + styles['navLinks']} to="/#AboutMe">About Me</Link>
+                    {/* </li>
+                    <li className="nav-item ml-3"> */}
+                        <Link className={"nav-link text-light p-0 " + styles['navLinks']}  to="/#MyProjects">Software Projects</Link>
             </div>
         </div>
         </nav>

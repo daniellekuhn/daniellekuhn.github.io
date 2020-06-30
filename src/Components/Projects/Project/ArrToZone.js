@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Project.module.css'
 import Image from 'react-image-webp';
-import docker from './Images/rsz_docker.png'
-import docker_web from './Images/rsz_docker.webp'
 import LazyLoad from 'react-lazy-load';
+import arrtozonestack from './Images/arrtozoneTech.png'
+import arrtozonestack_web from './Images/arrtozoneTech.webp'
 
 const ArrToZone = () => {
     return (
@@ -21,28 +21,11 @@ const ArrToZone = () => {
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
-                                <table className={styles['table']}>
-                                    <tbody>
-                                        <tr>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node.js" title="Node.js"/></td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://d2908q01vomqb2.cloudfront.net/cb4e5208b4cd87268b208e49452ed6e89a68e0b8/2018/02/20/AWS-Elastic-Beanstalk-Logo.png" alt="AWS" title="AWS"/></td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png" alt="Axios" title="Axios"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png" alt="Bootstrap" title="Bootstrap"/></td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" alt="Express" title="Express"/></td>
-                                            <td className={styles['rowsArrToZone']}>
-                                                <Image 
-                                                    src={docker}
-                                                    webp={docker_web}
-                                                    className={styles['logoImagesArrToZone']}
-                                                />
-                                            </td>
-                                            <td className={styles['rowsArrToZone']}><img className={styles['logoImagesArrToZone']} src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/272px-MySQL.svg.png" alt="MySQL" title="MySQL"/></td>
-                                        </tr>
-                                    </tbody>
-                                </table>  
+                                    <Image
+                                        src={arrtozonestack}
+                                        webp={arrtozonestack_web}
+                                        className={styles['techStack']}
+                                    />
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
@@ -60,6 +43,5 @@ const ArrToZone = () => {
 }
 
 export default ArrToZone;
-
 
                              

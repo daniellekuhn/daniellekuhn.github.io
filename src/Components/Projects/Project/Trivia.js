@@ -1,16 +1,15 @@
 import React from 'react';
 import styles from './Project.module.css'
 import LazyLoad from 'react-lazy-load';
+import Image from 'react-image-webp';
+import triviaTech from './Images/triviaTech.png';
+import triviaTech_web from './Images/triviaTech.webp'
 
 const Trivia = () => {
     return (
             <div id="TriviaApp" className="pt-1">
                 <h2 className={styles['descriptionTitle']}>Trivia App</h2>
                 <div className={styles['underline'] + " container pt-3"}>
-                        {/* <a href="https://github.com/daniellekuhn/DKTriviaApp">
-                            
-                        </a> */}
-                    
                     <div className="row">
                             <div className="col-lg-7">
                             <div className={styles['projectHeader']}>
@@ -23,14 +22,19 @@ const Trivia = () => {
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
-                                    <table className={styles['table']}>
+                                    {/* <table className={styles['table']}>
                                     <tbody>
                                         <tr>
                                             <td  className={styles['rowsTrivia']}><img className={styles['logoImagesTrivia']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
                                             <td  className={styles['rowsTrivia']}><img className={styles['logoImagesTrivia']} src="https://firebase.google.com/images/brand-guidelines/logo-built_white.png" alt="Firebase" title="Firebase"/></td>
                                         </tr>
                                         </tbody>
-                                    </table>
+                                    </table> */}
+                                    <Image
+                                        src={triviaTech}
+                                        webp={triviaTech_web}
+                                        className={styles['techStack']}
+                                    />
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">

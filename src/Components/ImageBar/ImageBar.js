@@ -2,24 +2,24 @@ import React from 'react';
 // import Image from 'react-image-webp';
 import styles from './Image.module.css';
 import web from './image.jpg';
-// import output from './output.webp';
-// import output_main from './output_main.webp'
+import output from './output.webp';
+import output_main from './output_main.webp'
 import mobile from './Image_mobile.jpg'
-import { Picture } from 'react-responsive-picture';
+import Image from 'react-image-webp';
 
 const ImageBar = () => {
     return (
         <div>
             <div className={styles['imgContainer']}>
-                <Picture
+                <Image
                     id="home" 
                     src={web}
-                    // webp={output_main}
+                    webp={output_main}
                     className={styles['imageWeb'] + " img-responsive"}
                 />
-                <Picture
+                <Image
                     src={mobile}
-                    // webp={output}
+                    webp={output}
                     className={styles['imageMobile'] + " img-responsive"} 
                 />    
             </div>    

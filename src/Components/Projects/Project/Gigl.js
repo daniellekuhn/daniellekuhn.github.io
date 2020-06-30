@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from './Project.module.css';
 import LazyLoad from 'react-lazy-load';
+import Image from 'react-image-webp';
+import techStack from './Images/giglTech.png'
+import techStack_web from './Images/giglTech.webp'
 
 const Gigl = () => {
     return (
@@ -19,8 +22,9 @@ const Gigl = () => {
                                      View on GitHub!
                                     </a>
                                 </div>
+
                                 <div className="d-flex justify-content-center">
-                                    <table className={styles['tableGigl']}>
+                                    {/* <table className={styles['tableGigl']}>
                                     <tbody>
                                         <tr>
                                             <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
@@ -38,7 +42,12 @@ const Gigl = () => {
                                             <td  className={styles['rowsGigl']}><img src="https://www.logolynx.com/images/logolynx/f4/f436442c17fa509c78e28aa28c76b923.png" alt="MongoDB" title="MongoDB" width="60px"/></td>
                                         </tr>
                                         </tbody>
-                                    </table>
+                                    </table>  */}
+                                    <Image
+                                        src={techStack}
+                                        webp={techStack_web}
+                                        className={styles['techStack']}
+                                    />
                                 </div>
                             </div>
                             <div className="col-lg-5 d-flex justify-content-center">
