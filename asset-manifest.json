@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.84dd41fd.chunk.css",
-    "main.js": "/static/js/main.40574ed0.chunk.js",
-    "main.js.map": "/static/js/main.40574ed0.chunk.js.map",
+    "main.js": "/static/js/main.08442108.chunk.js",
+    "main.js.map": "/static/js/main.08442108.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
     "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
     "static/js/2.fd7b11e2.chunk.js": "/static/js/2.fd7b11e2.chunk.js",
     "static/js/2.fd7b11e2.chunk.js.map": "/static/js/2.fd7b11e2.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f83d7fb85670193a7f3851b239fc9568.js": "/precache-manifest.f83d7fb85670193a7f3851b239fc9568.js",
+    "precache-manifest.80e33088f913ae018df499200e6acc97.js": "/precache-manifest.80e33088f913ae018df499200e6acc97.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.84dd41fd.chunk.css.map": "/static/css/main.84dd41fd.chunk.css.map",
     "static/js/2.fd7b11e2.chunk.js.LICENSE.txt": "/static/js/2.fd7b11e2.chunk.js.LICENSE.txt",
@@ -17,6 +17,8 @@
     "static/media/arrtozoneTech.webp": "/static/media/arrtozoneTech.422e1813.webp",
     "static/media/computer.jpg": "/static/media/computer.6281db4d.jpg",
     "static/media/computer.webp": "/static/media/computer.72e6e092.webp",
+    "static/media/gigl2.png": "/static/media/gigl2.07ce29fc.png",
+    "static/media/gigl2.webp": "/static/media/gigl2.b51854a1.webp",
     "static/media/giglTech.webp": "/static/media/giglTech.4f823632.webp",
     "static/media/giglTech.png": "/static/media/giglTech.5ec4cb88.png",
     "static/media/image.jpg": "/static/media/image.c171a4da.jpg",
@@ -26,6 +28,8 @@
     "static/media/rsz_arrtozone.webp": "/static/media/rsz_arrtozone.97815125.webp",
     "static/media/self.png": "/static/media/self.69b2cb60.png",
     "static/media/self.webp": "/static/media/self.e9ad17a1.webp",
+    "static/media/trivia.png": "/static/media/trivia.081411b0.png",
+    "static/media/trivia.webp": "/static/media/trivia.544bb9f3.webp",
     "static/media/triviaTech.webp": "/static/media/triviaTech.f406c945.webp",
     "static/media/triviaTech.png": "/static/media/triviaTech.f7b042c6.png",
     "static/media/world2.jpeg": "/static/media/world2.94c69a21.jpeg",
@@ -35,6 +39,6 @@
     "static/js/runtime-main.7e4b9196.js",
     "static/js/2.fd7b11e2.chunk.js",
     "static/css/main.84dd41fd.chunk.css",
-    "static/js/main.40574ed0.chunk.js"
+    "static/js/main.08442108.chunk.js"
   ]
 }

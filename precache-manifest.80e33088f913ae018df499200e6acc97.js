@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2b6a93ea164e4ddfbece25424158bf8",
+    "revision": "a0c94f15b90f94b504d225ca7e07eb41",
     "url": "/index.html"
   },
   {
-    "revision": "89b5aa5dc4ae9716006e",
+    "revision": "5089f9dda41282c15219",
     "url": "/static/css/main.84dd41fd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.fd7b11e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "89b5aa5dc4ae9716006e",
-    "url": "/static/js/main.40574ed0.chunk.js"
+    "revision": "5089f9dda41282c15219",
+    "url": "/static/js/main.08442108.chunk.js"
   },
   {
     "revision": "967a46d8b67e4e01db1f",
@@ -42,6 +42,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "72e6e0925562c853fd549bb9a9953430",
     "url": "/static/media/computer.72e6e092.webp"
+  },
+  {
+    "revision": "07ce29fcc6aa381041247f7ba4d6489d",
+    "url": "/static/media/gigl2.07ce29fc.png"
+  },
+  {
+    "revision": "b51854a1cee5759bd54938ab53f2b43b",
+    "url": "/static/media/gigl2.b51854a1.webp"
   },
   {
     "revision": "4f82363255e071d4cc232c82ad300fb9",
@@ -78,6 +86,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9ad17a118d97427a7d417ea3e12acd6",
     "url": "/static/media/self.e9ad17a1.webp"
+  },
+  {
+    "revision": "081411b0f92525e38c50ecd732129146",
+    "url": "/static/media/trivia.081411b0.png"
+  },
+  {
+    "revision": "544bb9f3829ab0a4aee71426e60c1ab0",
+    "url": "/static/media/trivia.544bb9f3.webp"
   },
   {
     "revision": "f406c9457fcef8e055cf0a1f26d64d4b",
