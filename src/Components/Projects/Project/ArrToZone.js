@@ -24,6 +24,7 @@ const ArrToZone = () => {
                                     <Image
                                         src={arrtozonestack}
                                         webp={arrtozonestack_web}
+                                        alt="tech-stack"
                                         className={styles['techStack']}
                                     />
                                 </div>
@@ -34,7 +35,6 @@ const ArrToZone = () => {
                                         <source src="ArrToZone.mp4" type="video/mp4"></source>   
                                     </video> 
                                     </LazyLoad>
-                                {/* <img className={styles['demoArrToZone']} src="https://media.giphy.com/media/S9Ka79Bc2nwVEeadn4/giphy.gif" alt="..."></img> */}
                             </div>
                     </div>
                 </div>

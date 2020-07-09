@@ -24,28 +24,10 @@ const Gigl = () => {
                                 </div>
 
                                 <div className="d-flex justify-content-center">
-                                    {/* <table className={styles['tableGigl']}>
-                                    <tbody>
-                                        <tr>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png" alt="Node.js" title="Node.js"/></td>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" alt="Heroku" title="Heroku"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png" alt="Axios" title="Axios"/></td>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://cdn.worldvectorlogo.com/logos/react-router.svg" alt="React Router" title="React Router"/></td>
-                                            <td  className={styles['rowsGigl']}><img className={styles['logoImages']} src="https://buttercms.com/static/images/tech_banners/ExpressJS.png" alt="Express" title="Express"/></td>
-                                        </tr>
-                                        <tr>
-                                            <td  className={styles['rowsGigl']}><img src="https://miro.medium.com/max/600/1*i37IyHf6vnhqWIA9osxU3w.png" alt="Jest" title="Jest" width="60px"/></td>
-                                            <td  className={styles['rowsGigl']}><img src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png" alt="Bootstrap" title="Bootstrap" width="60px"/></td>
-                                            <td  className={styles['rowsGigl']}><img src="https://www.logolynx.com/images/logolynx/f4/f436442c17fa509c78e28aa28c76b923.png" alt="MongoDB" title="MongoDB" width="60px"/></td>
-                                        </tr>
-                                        </tbody>
-                                    </table>  */}
                                     <Image
                                         src={techStack}
                                         webp={techStack_web}
+                                        alt="tech-stack"
                                         className={styles['techStack']}
                                     />
                                 </div>

@@ -22,17 +22,10 @@ const Trivia = () => {
                                     </a>
                                 </div>
                                 <div className="d-flex justify-content-center">
-                                    {/* <table className={styles['table']}>
-                                    <tbody>
-                                        <tr>
-                                            <td  className={styles['rowsTrivia']}><img className={styles['logoImagesTrivia']} src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" alt="React" title="React"/></td>
-                                            <td  className={styles['rowsTrivia']}><img className={styles['logoImagesTrivia']} src="https://firebase.google.com/images/brand-guidelines/logo-built_white.png" alt="Firebase" title="Firebase"/></td>
-                                        </tr>
-                                        </tbody>
-                                    </table> */}
                                     <Image
                                         src={triviaTech}
                                         webp={triviaTech_web}
+                                        alt="tech-stack"
                                         className={styles['techStack']}
                                     />
                                 </div>

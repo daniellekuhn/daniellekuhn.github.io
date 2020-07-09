@@ -12,6 +12,7 @@ const Card = () => {
                     <Image
                         src={self}
                         webp={self_web}
+                        alt="danielle-kuhn"
                         className={styles['profileImage'] + " img-responsive"}
                     />
                 </div>

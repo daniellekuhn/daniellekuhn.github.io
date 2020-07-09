@@ -15,11 +15,13 @@ const ImageBar = () => {
                     id="home" 
                     src={web}
                     webp={output_main}
+                    alt="danielle-kuhn"
                     className={styles['imageWeb'] + " img-responsive"}
                 />
                 <Image
                     src={mobile}
                     webp={output}
+                    alt="danielle-kuhn"
                     className={styles['imageMobile'] + " img-responsive"} 
                 />    
             </div>    

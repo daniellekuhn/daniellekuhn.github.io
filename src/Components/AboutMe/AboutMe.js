@@ -36,6 +36,7 @@ const AboutMe = () => {
             <Image
                 src={computer}
                 webp={computer_web}
+                alt="computer"
                 className={styles['spaceImage']}
             />
     </div>

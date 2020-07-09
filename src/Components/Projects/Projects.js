@@ -11,7 +11,6 @@ import arrtozone_web from './Images/rsz_arrtozone.webp'
 import arrtozone from './Images/rsz_arrtozone.png'
 import LazyLoad from 'react-lazy-load';
 
-
 const Projects = () => {
     return (
     <div id="MyProjects" className={styles['background']}>
@@ -23,7 +22,12 @@ const Projects = () => {
                     <div className="container">
                         <div className="embed-responsive embed-responsive-1by1 w-70">
                             <Link to="/#Gigl">
-                                <img src="https://i.imgur.com/7ulDwMp.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>       
+                                <Image
+                                    src={require('./Images/gigl2.png')}
+                                    webp={require('./Images/gigl2.webp')}
+                                    alt="Gigl"
+                                    className={styles['projectImg'] + " embed-responsive-item p-3"}
+                                />
                             </Link>
                         </div>
                         <div className={styles['imageFooter']}>
@@ -35,7 +39,12 @@ const Projects = () => {
                     <div className="container">
                     <div className="embed-responsive embed-responsive-1by1 w-70">
                         <Link to="/#TriviaApp">
-                            <img src="https://i.imgur.com/mQlCuhR.png" alt="..." className={styles['projectImg'] + " embed-responsive-item p-3"}></img>
+                            <Image
+                                src={require('./Images/trivia.png')}
+                                webp={require('./Images/trivia.webp')}
+                                alt="trivia"
+                                className={styles['projectImg'] + " embed-responsive-item p-3"}
+                            />
                         </Link>
                     </div>
                     <div className={styles['imageFooter']}>
@@ -50,6 +59,7 @@ const Projects = () => {
                                 <Image
                                     src={arrtozone}
                                     webp={arrtozone_web}
+                                    alt="demo"
                                     className={styles['projectImg'] + " embed-responsive-item p-3"}
                                 />
                             </Link>
@@ -69,6 +79,7 @@ const Projects = () => {
             <Image
                 src={world}
                 webp={world_web}
+                alt="computer"
                 className={styles['spaceImage']}
             />
         </LazyLoad>
