@@ -17,17 +17,29 @@ const AboutMe = () => {
                     <Card/>
                 </div>
                 <div className="col-lg-8">
-                    <p>My name is Danielle Kuhn and I am a software engineer with both frontend and backend experience. 
-                    I entered the tech industry about five years ago when I founded a global payments company because I love solving complex problems, especially through the use of technology. Throughout that journey I realized 
-                    that I am enamored with engineering challenges and what can be accomplished with code. It became my goal to learn how to build software like we had created for our customers and I've
-                    been creating applications ever since! </p>
-                    <p>In addition to my tech background, I am also a credentialed Actuary with six years of actuarial science experience. Throughout my actuarial career, I have always gravitated to the more technical parts of the profession and love developing complex actuarial models.  </p>
-                    <p>In order to take my engineering skills to the next level, I recently spent the last four months building software applications with other developers at Hack Reactor. I had the incredible opportunity to advance my JavaScript and React skills along with diving into a variety of other technologies.</p> 
-                    <p>Outside of developing apps in my spare time, I love to do anything active outdoors such as running, skiing, or wakesurfing and recently I’ve picked up bird watching! 
-                    We also recently adopted two kittens 
-                    that are eight weeks old - Winston Furchill and Franklin Pursevelt <span role="img" aria-label="cat">🐈🐈</span>!  
-                     Similar to most, I love to visit and learn about other parts of the world. I had the incredible opportunity to work in China, Japan and Luxembourg.</p>
-                    <p>Thank you for checking out my website. I hope you enjoy it!</p>               
+                    <p>My name is Danielle Kuhn and I am a lifelong learner that loves coding, exploring new software, 
+                        and building cool products. I recently founded a company and am in the process of designing and 
+                        developing the product - I hope to share more information on my site soon! </p>
+                    
+                    <p>Prior to founding my current company, I worked as a software engineer at Supply Drop, a startup 
+                        offering a smart subscription service for home essentials, with an amazing team. I worked across 
+                        the stack in React (JavaScript) and Kotlin in addition to using numerous AWS services (e.g. DynamoDB, 
+                        Lex for Natural Language Processing).</p>
+
+                    <p>In addition to my experience as a software engineer, I co-founded and was COO of a global payment 
+                        company, PingPong Financial. I experienced scaling the company from zero to billions in Total Payment 
+                        Volume. I spent the majority of my time leading operations, product launches, and international 
+                        expansion, including opening offices in the US and Luxembourg. Prior to that, I worked as an Actuary 
+                        at Deloitte Consulting for 7 years and obtained my Associate of the Society of Actuaries credentials.</p> 
+                    
+                    <p>Outside of my career, I love doing anything active such as fitness classes, skiing, intramural sports 
+                        and am in the process of obtaining my diving certification (so that I can explore parts of 71% percent 
+                        of the earth!) I also love reading the Wall Street Journal every morning and discussing what’s going 
+                        on around the world. Last but not least, I enjoy spending time with our cats, Winston Furchill 
+                        and Franklin Pursevelt, that my partner Nate and I adopted during the pandemic.</p>
+
+                    <p>Thanks for checking out my site! Feel free to reach out if you have software questions or want to 
+                        explore new technologies together!</p>               
                 </div>
             </div>
             </div>

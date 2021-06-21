@@ -22,14 +22,14 @@ const Card = () => {
                     <div>Danielle Kuhn</div>
                 </div>
                 <div className={styles['emojis']}>
-                    <span role="img" aria-label="activites">👩‍💻🏃‍♀️⛷🏄‍♀️🌎</span>
+                    <span role="img" aria-label="activites">👩‍💻🏃‍♀️⛷🌎🐈🐈</span>
                 </div>
                 <div className={styles['line']}>
                     ---------
                 </div>
                 <div className={styles['titleText']}>
-                    <div>Engineer, Cofounder, Actuary</div>
-                </div>
+                    <div>Software Engineer, Cofounder, Actuary</div>
+                    <div>University of Wisconsin alum</div>                </div>
                 <div className={styles['line']}>
                     ---------
                 </div>
